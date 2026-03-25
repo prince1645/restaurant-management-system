@@ -1,0 +1,30 @@
+body {
+  background: var(--bs-body-bg);
+}
+
+.sidebar {
+  width: 250px;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.nav-btn.active {
+  color: #fff;
+  background-color: var(--bs-primary);
+}
+
+.menu-card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
